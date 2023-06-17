@@ -1,0 +1,30 @@
+# Clean Code - Key Takeaways
+
+- The only was to go fast is to keep the code as clean as possible all the times"
+- What is Clean Code?
+  - Clean Code does one thing well.
+  - Clean Code reads like well-written prose.
+  - Clean Code is easily enhanced by others.
+  - Clean Code is surrounded by tests.
+  - Clean Code looks like it was written by someone who cares.
+  - Clean Code contains no duplications.
+- We are authors. By making code easy to read we make it easy to write.
+- Checkout the code cleaner than you pulled it in. In the end of the day every small refactor counts.
+- Meaningful Names
+  - A good name should easily reveal the intent of a method.
+  - Avoid leaving false clues that obscure the meaning of code.
+  - When variables are used for different purposes give thm a good name distinction.
+  - Use pronounceable names.
+  - Use searchable names
+  - Avoid name prefixes.
+    - `strPhoneString`
+    - `ISomeInterface`
+  - Clarity is King.
+  - Class Names should be noun or noun phrase names.
+  - Method Names should have verb or verb phrase names.
+  - Choose clarity over entertainment.
+  - Pick one word per concept.
+  - Use Solution Domain Names
+    - Prefer to use technical names.
+  - Use Problem Domain Names
+  - Provide the appropriate context when naming new items.
