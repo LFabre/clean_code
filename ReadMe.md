@@ -32,6 +32,7 @@ clean as possible all the times."
 - Clean Code is surrounded by tests.
 - Clean Code looks like it was written by someone who cares.
 - Clean Code contains no duplications.
+- _"You know you are working on clean code when each routine turns out to be pretty much what you expected."_
 
 ### We Are Authors
 
@@ -140,3 +141,23 @@ public static void copyChars(char source[], char destination[]) {
 "Readers shouldn't have to translate a name into other names they already know."
 
 "One difference between smart programmer and professional programmer is that the professional understands that _Clarity is King_. professionals use their powers for good and write code that others can understand."
+
+## Chapter 3 - Functions
+
+- Functions should be small.
+- Functions should be smaller that.
+- Functions should do one thing. They should do it well. They should do uit only.
+  - The function is doing more than "One Thing" when it's possible to extract another functions from it with a name that is not merely a restatement of its implementation.
+  - Functions that can be broken down into sections are a clear sign of doing more than One Thing.
+  - Functions that have hidden side effects are a clear sign of doing more than One Thing.
+- One level of abstraction per function
+  - Reading code from a top to bottom
+- Avoid Switch statements as they often violate the Single Responsibility Principle and Open Closed Principle.
+- Arguments
+  - The ideal number of arguments for a function is zero.
+  - Avoid boolean arguments
+  - Consider passing arguments wrapped on objects or classes.
+    - `makeCircle(double x, double y, double radius)`
+    - `makeCircle(Point center, double radius)`
+  - Use arguments to explain the intent of a functions
+    - ``
